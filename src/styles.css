@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Ralenway:300,700');
+
+body{
+    background: rgb(56, 56, 236);
+    padding: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+ul li {
+    display: inline;
+    margin-right: 30px;
+}
+a{
+    color: white;
+    text-decoration: dashed;
+}

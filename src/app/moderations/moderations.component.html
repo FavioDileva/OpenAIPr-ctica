@@ -1,0 +1,13 @@
+<div>
+    <form (ngSubmit)="onSubmit()">
+      <label for="prompt">Moderar un texto:</label>
+      <input type="text" id="prompt" [(ngModel)]="prompt" name="prompt">
+      <button type="submit">Moderar</button>
+    </form>
+  </div>
+  
+  <div *ngIf="outputText">
+    <p>{{outputText}}</p>
+  </div>
+  
+  

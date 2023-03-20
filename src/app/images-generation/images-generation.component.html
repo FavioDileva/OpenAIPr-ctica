@@ -1,0 +1,12 @@
+<div>
+    <form (ngSubmit)="onSubmit()">
+      <label for="prompt">Genera una imagen:</label>
+      <input type="text" id="prompt" [(ngModel)]="prompt" name="prompt">
+      <button type="submit">Generate Image</button>
+    </form>
+  </div>
+  
+  <div *ngIf="imageUrl">
+    <img [src]="imageUrl" alt="Generated Image">
+  </div>
+  
