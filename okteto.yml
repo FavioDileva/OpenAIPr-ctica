@@ -1,0 +1,6 @@
+name: my-app
+image: node:14
+command: npm start
+forward:
+  - 3000:3000
+
